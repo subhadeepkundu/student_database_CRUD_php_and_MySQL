@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>STUDENT DATABASE</title>
+	<title>STUDENT DATABASE PROJECT</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -51,7 +51,7 @@
 		</tr>
 	<?php } ?>			
 		</tbody>
-	</table>
+	</table><br>
 	<form method="post" action="server.php" style="background-color: #33FF77">
 	<input type="hidden" name="id" value="<?php echo $id; ?>">
 		<div class="data">
