@@ -7,6 +7,12 @@
 	$edit_state=true;
 	//connect  to db
 	$db= mysqli_connect('localhost','root','','crud');
+	// Check connection
+	if ($conn->connect_error) {
+    		die("Connection failed: " . $conn->connect_error);
+ 
+	echo "Connected successfully";
+	}
 	//enter into db
 	if(isset($_POST['submit']))
 	{
